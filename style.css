@@ -1,1 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+body{
+  background-color: #dde5b6;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.div-element{
+  border-width: 2px;
+  border-style: solid;
+  border-color:#641220;
+  width:350px;
+  height:450px;
+  background-color: #f0ead2;
+  padding-left:60px;
+  padding-top:20px;
+  border-radius:20%;
+  cursor:pointer;
+
+}
+.heading-element{
+  margin: 10px;
+  margin-bottom:4px;
+  font-weight: bold;
+}
+.name1-element{
+  font-weight:lighter;
+}
+.name2-element{
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-top: 25px;
+}
+.input1-element{
+  margin-top: 4px;
+  border-radius: 7px;
+  width:250px;
+  height:35px;
+  padding-left: 10px;
+  display: block;
+  border-width: 1px;
+  border-color: black;
+}
+.input1-element:hover{
+  font-size: 18px;
+  border-color: #641220;
+  width:290px;
+}
+.name3-element{
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.name4-element{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.input2-element{
+  display: inline-block;
+  padding-top: 10px;
+  margin-top: 10px;
+  width:16px;
+  height:14px;
+}
+.label-element{
+  display: inline-block;
+  margin-left: 0px;
+}
+.btn1-element{
+ display:block;
+ width:260px;
+ height:40px;
+ margin-top: 22px;
+ border-radius: 7px;
+ border-width: 0px;
+ background-color: #0077b6;
+}
+.btn1-element:hover{
+  background-color: #b7b7a4;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.btn1-element:active{
+  background-color: #ffe14c;
+  border-color: black;
+  border-radius: 2px;
+}
+.hr1{
+  width:75px;
+  display: inline-block;
+  margin-top:15px;
+}
+.h6-element{
+ display: inline-block;
+ font-size: 14px;
+ margin-top:15px;
+ font-weight: lighter;
+}
+.hr2{
+  width:75px;
+  display:inline-block;
+  margin-top:15px;
+}
+.img-button{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  width:122px;
+  color: red;
+  height:40px;
+  border-radius: 7px;
+  border-color: #023e8a ;
+  border:solid;
+  border-width: 1px;
+}
+.img2-button{
+  width:122px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #023e8a;
+  height:40px;
+  border-radius: 7px;
+  border-color:red;
+  border:solid;
+  border-width: 1px;
+}
 
